@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-08T17:19:58.820Z</updated>
+  <updated>2020-06-23T11:01:56.208Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>get,post,put,patch,delete请求方法</title>
+    <link href="http://yoursite.com/2020/06/17/%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95%E5%A4%87%E5%BF%98/"/>
+    <id>http://yoursite.com/2020/06/17/%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95%E5%A4%87%E5%BF%98/</id>
+    <published>2020-06-17T07:27:12.000Z</published>
+    <updated>2020-06-23T11:01:56.208Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="get-post-put-patch-delete"><a href="#get-post-put-patch-delete" class="headerlink" title="get,post,put,patch,delete"></a>get,post,put,patch,delete</h2><p><strong>get:</strong> 获取数据<br><strong>post:</strong> 提交数据<br><strong>put:</strong> 更新数据<br><strong>patch:</strong> 更新数据<br><strong>delete:</strong> 删除数据</p><h2 id="put和patch的区别"><a href="#put和patch的区别" class="headerlink" title="put和patch的区别"></a>put和patch的区别</h2><p>put会把所有的数据都推送到服务端，而patch只将修改的数据推送到服务端</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;get-post-put-patch-delete&quot;&gt;&lt;a href=&quot;#get-post-put-patch-delete&quot; class=&quot;headerlink&quot; title=&quot;get,post,put,patch,delete&quot;&gt;&lt;/a&gt;get,post,pu
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>我成功了</title>
