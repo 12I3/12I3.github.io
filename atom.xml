@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-25T16:31:02.532Z</updated>
+  <updated>2020-06-27T13:53:59.775Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>axios拦截器</title>
+    <link href="http://yoursite.com/2020/06/27/axios%E6%8B%A6%E6%88%AA%E5%99%A8/"/>
+    <id>http://yoursite.com/2020/06/27/axios%E6%8B%A6%E6%88%AA%E5%99%A8/</id>
+    <published>2020-06-27T12:40:10.593Z</published>
+    <updated>2020-06-27T13:53:59.775Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="请求拦截器"><a href="#请求拦截器" class="headerlink" title="请求拦截器"></a>请求拦截器</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> inc = axios.interceptors.request.use(</span><br><span class="line">    config=&gt;&#123;</span><br><span class="line">        <span class="comment">//发送请求之前做些什么</span></span><br><span class="line">        <span class="keyword">return</span> config</span><br><span class="line">    &#125;,</span><br><span class="line">    err=&gt;&#123;</span><br><span class="line">        <span class="comment">//请求错误时做些什么</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">Promise</span>.reject(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure><br/><h2 id="响应拦截器"><a href="#响应拦截器" class="headerlink" title="响应拦截器"></a>响应拦截器</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> inc = axios.interceptors.response.use(</span><br><span class="line">    response=&gt;&#123;</span><br><span class="line">        <span class="comment">//请求成功之后做些什么</span></span><br><span class="line">        <span class="keyword">return</span> response</span><br><span class="line">    &#125;,</span><br><span class="line">    err=&gt;&#123;</span><br><span class="line">        <span class="comment">//请求失败做些什么</span></span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">Promise</span>.reject(err)</span><br><span class="line">    &#125;)</span><br></pre></td></tr></table></figure><br/><h2 id="取消拦截器的方法"><a href="#取消拦截器的方法" class="headerlink" title="取消拦截器的方法"></a>取消拦截器的方法</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">axios.interceptors.request.eject(inc)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;请求拦截器&quot;&gt;&lt;a href=&quot;#请求拦截器&quot; class=&quot;headerlink&quot; title=&quot;请求拦截器&quot;&gt;&lt;/a&gt;请求拦截器&lt;/h2&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gu
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vue中axios方法的基本使用</title>
